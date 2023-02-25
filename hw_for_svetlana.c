@@ -23,6 +23,7 @@ int main() {
 void whoIsMore(int a, int b) {
 
 	printf("%d;\n", a > b || a == b ? a : b);
+	// a >= b ? a : b;
 }
 
 void isPozitiv(int a) {
